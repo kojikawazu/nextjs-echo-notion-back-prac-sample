@@ -132,7 +132,7 @@ func (dh *DifyHandler) GetDifyAndCreateNotionHandler(c echo.Context) error {
 				RichText: []model_notion.Text{
 					{
 						Text: model_notion.Content{
-							Content: time.Now().Format("2024-01-01"),
+							Content: time.Now().Format("2006/01/02"),
 						},
 					},
 				},
